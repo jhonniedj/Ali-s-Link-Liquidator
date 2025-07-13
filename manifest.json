@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Ali's Link Liquidator (by Jona)",
+  "description": "No Google! bad Google! We don't want bad dutch translation on Aliexpress!",
+  "version": "1.0",
+  "permissions": [
+    "cookies",
+    "scripting",
+    "declarativeNetRequest",
+    "browsingData",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.aliexpress.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

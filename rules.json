@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "www.aliexpress.com",
+          "queryTransform": {
+            "removeParams": [
+              "_randl_currency",
+              "_randl_shipto",
+              "src",
+              "gQT",
+              "pdp_npi"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "nl.aliexpress.com/",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

@@ -1,0 +1,126 @@
+   body {
+       font-family: 'Segoe UI', Tahoma, sans-serif;
+       background: #f7f7f7;
+       margin: 0;
+       padding: 0;
+       width: 300px;
+   }
+
+   header {
+       /* background: linear-gradient(135deg, #ff5f6d, #ffc371); */
+       background: #c91625;
+       color: white;
+       padding: 10px;
+       text-align: center;
+       border-bottom: 1px solid #ddd;
+   }
+
+   h1 {
+       font-size: 18px;
+       margin: 0;
+   }
+
+   .container {
+       padding: 15px;
+   }
+
+   .setting {
+       font-size: 14px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin: 15px 0;
+   }
+
+   .switch {
+       position: relative;
+       display: inline-block;
+       width: 50px;
+       height: 26px;
+   }
+
+   .switch input {
+       opacity: 0;
+       width: 0;
+       height: 0;
+   }
+
+   .slider {
+       position: absolute;
+       cursor: pointer;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       background-color: #ccc;
+       transition: .4s;
+       border-radius: 34px;
+   }
+
+   .slider:before {
+       position: absolute;
+       content: "";
+       height: 20px;
+       width: 20px;
+       left: 3px;
+       bottom: 3px;
+       background-color: white;
+       transition: .4s;
+       border-radius: 50%;
+   }
+
+   input:checked+.slider {
+       background-color: #ff5f6d;
+   }
+
+   input:checked+.slider:before {
+       transform: translateX(24px);
+   }
+
+   #toast {
+       visibility: hidden;
+       min-width: 200px;
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       border-radius: 5px;
+       padding: 12px;
+       position: fixed;
+       z-index: 1;
+       left: 50%;
+       top: 50px;
+       transform: translateX(-50%);
+       font-size: 14px;
+       opacity: 0;
+       transition: opacity 0.5s, visibility 0.5s;
+   }
+
+   #toast.show {
+       visibility: visible;
+       opacity: 0.9;
+   }
+
+   button#copyLink {
+       background: linear-gradient(135deg, #4CAF50, #2E7D32);
+       color: white;
+       border: none;
+       margin-top: 10px;
+       padding: 6px 12px;
+       font-size: 16px;
+       border-radius: 8px;
+       cursor: pointer;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+       transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+   }
+
+   /* button#copyLink:hover {
+       background: linear-gradient(135deg, #66BB6A, #388E3C);
+       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+       transform: translateY(-2px);
+   } */
+
+   button#copyLink:active {
+       background: linear-gradient(135deg, #388E3C, #1B5E20);
+       transform: translateY(0);
+       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+   }
