@@ -1,13 +1,13 @@
 # Ali's Link Liquidator (by Jona)
 *"No Google! bad Google! No bad dutch language on Aliexpress!”*
 
-<img width="512" height="512" alt="logo" src="https://github.com/user-attachments/assets/138cb739-8df2-4fa4-8e03-def1ce334452" />
-
 Chrome extension to:
 - Remove Dutch translation & regional junk from AliExpress links.
 - Force AliExpress to open in **en_US** locale.
 - Skip all Google tracking junk in links.
 - Toggle cookie-forcing and URL-cleaning (ON/OFF switchable). 
+
+<img width="512" height="512" alt="logo" src="https://github.com/user-attachments/assets/138cb739-8df2-4fa4-8e03-def1ce334452" />
 
 ---
 
