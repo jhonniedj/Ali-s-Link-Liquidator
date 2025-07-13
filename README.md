@@ -1,5 +1,5 @@
 # Ali's Link Liquidator (by Jona)
-*"No Google! bad Google! No bad dutch language on Aliexpress!”*
+*"No Google! bad Google! We don't want bad dutch translation on Aliexpress!”*
 
 Chrome extension to:
 - Remove Dutch translation & regional junk from AliExpress links.
