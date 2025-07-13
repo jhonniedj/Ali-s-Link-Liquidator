@@ -23,13 +23,18 @@ Chrome extension to:
 ## 🛠️ Installation
 
 ### From GitHub (Development Mode):
-1. Clone or download ([.zip](https://github.com/jhonniedj/Ali-s-Link-Liquidator/archive/refs/heads/main.zip)) this repository:
+1a. Download ([.zip](https://github.com/jhonniedj/Ali-s-Link-Liquidator/archive/refs/heads/main.zip)) this repository and unpack in a folder
+
+or
+
+1b. Clone ([.zip](https://github.com/jhonniedj/Ali-s-Link-Liquidator/archive/refs/heads/main.zip)) this repository:
+
 ```bash
 git clone https://github.com/jhonniedj/Ali-s-Link-Liquidator.git
 ```
 2. Visit `chrome://extensions/` in Chrome.
 3. Enable **Developer mode**.
-4. Click **Load unpacked**.
+4. Click **Load unpacked** and choose the folder from step 1.
 5. Select the folder containing this extension.
 6. Manage features via the extension popup.
 
