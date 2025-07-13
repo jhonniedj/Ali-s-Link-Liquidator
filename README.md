@@ -23,6 +23,25 @@ Chrome extension to:
 ## 🛠️ Installation
 
 ### From GitHub (Development Mode):
-1. Clone or download this repository:
+1. Clone or download ([.zip](https://github.com/jhonniedj/Ali-s-Link-Liquidator/archive/refs/heads/main.zip)) this repository:
 ```bash
-git clone https://github.com/YOURNAME/alis-link-liquidator.git
+git clone https://github.com/jhonniedj/Ali-s-Link-Liquidator.git
+```
+2. Visit `chrome://extensions/` in Chrome.
+3. Enable **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the folder containing this extension.
+6. Manage features via the extension popup.
+
+## Usage
+
+- Toggle **URL Cleaning** to clean and redirect AliExpress links.
+- Toggle **Force Language Cookies** to enforce English language.
+
+## Icon & Credits
+
+Logo and extension by Jona, designed via AI illustration.
+
+---
+
+If you encounter issues, disable features individually via the popup interface.
